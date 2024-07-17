@@ -6,7 +6,8 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <meta charSet="utf-8" />
+      <meta charSet="utf-8" name="description" content="Junior React Developer with skills in HTML, CSS, JavaScript, and more."/>
+
         <title>Profile</title>
       </Helmet>
       <div>

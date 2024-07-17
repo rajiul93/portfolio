@@ -2,7 +2,7 @@
 
 const Cv = () => {
     return (
-      <div className="my-4">
+   
           <a
         href="resume.pdf"
         target="_blank"
@@ -11,7 +11,7 @@ const Cv = () => {
       >
         Download Resume
       </a>
-      </div>
+      
     );
 };
 

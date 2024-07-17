@@ -3,12 +3,14 @@
 const Footer = () => {
     return (
         <div>
-            <footer className="footer bg-gray-800 flex flex-col flex-col-reverse text-neutral-content items-center p-4">
+            <footer className="footer bg-neutral  flex flex-col flex-col-reverse text-neutral-content items-center ">
               <aside className="grid-flow-col items-center text-center">
                 <p>
                   Copyright © ${new Date().getFullYear()} - All right reserved
                 </p>
               </aside>
+
+            
               <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
                 <div
                   id="social"
@@ -44,14 +46,7 @@ const Footer = () => {
                   </a>
                 </div>
               </nav>
-              <a
-                href="resume.pdf"
-                target="_blank"
-                download
-                className="border px-2 py-1 rounded-2xl hover:bg-gray-950 duration-500"
-              >
-                Download Resume
-              </a>
+              
             </footer>
         </div>
     );
